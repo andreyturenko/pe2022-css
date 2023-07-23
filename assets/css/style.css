@@ -1,0 +1,31 @@
+.outerBlock {
+  border: 5px solid blue;
+  height: 400px;
+  /* padding: 10px; */
+}
+
+.innerBlock {
+  border: 5px solid red;
+  padding: 5px;
+}
+
+.flexParent {
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: space-between;
+  align-items: center; */
+}
+
+.flexChild1 {
+  /* align-self: flex-end; */
+}
+
+.flexChild2 {
+}
+
+.flexChild3 {
+}
+
+.flexChild4 {
+  /* align-self: flex-start; */
+}
